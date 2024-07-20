@@ -1,0 +1,322 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: 'Castoro', serif;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*,*::before,*::after {
+    box-sizing: border-box;
+  }
+
+/*.bruno-ace-sc-regular {
+  font-family: "Bruno Ace SC", sans-serif;
+}*/
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+.color_FFFFFF{
+    color: #FFFFFF;
+}
+.color_00FFA3{
+    color:#00FFA3;
+}
+.d-flex{
+    display: flex;
+}
+
+img{
+    width: 100%;
+}
+
+/*字型大小*/
+.fs-5{
+    font-size: 20px;
+}
+.fs-6{
+    font-size: 24px;
+}
+.fs-16{
+    font-size: 64px;
+}
+.fs-32{
+    font-size: 128px;
+}
+.fs-48{
+    font-size: 192px;
+}
+
+/*主軸對齊*/
+.jcfe{
+    justify-content: flex-end;
+}
+.jcc{
+    justify-content: center;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.jcsa{
+    justify-content: space-around;
+}
+
+/*主軸方向*/
+.fdc{
+    flex-direction: column;
+}
+.fdr{
+    flex-direction: row;
+}
+
+/*交錯軸對齊*/
+.aic{
+    align-items: center;
+}
+.ais{
+    align-items: start;
+}
+.aife{
+    align-items: flex-end;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-center{
+    text-align: center;
+}
+
+/*padding區塊*/
+.pl-6{
+    padding-left: 24px;
+}
+.pt_pb-10{
+    padding: 40px 0px;
+}
+.pt_pb-24{
+    padding: 96px 0px;
+}
+.pt_pb-40{
+    padding: 160px 0px;
+}
+/*margin區塊*/
+.mb-auto{
+    margin-bottom: auto;
+}
+.mt-auto{
+    margin-top: auto;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.mb-2{
+    margin-bottom: 8px;
+}
+.mb-6{
+    margin-bottom: 24px;
+}
+.mb-9{
+    margin-bottom: 36px;
+}
+.mr-4{
+    margin-right: 16px;
+}
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.nav{
+    background-color: #000000;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px;
+}
+.nav-list a{
+    color: #D1D1D1;
+}
+
+.header{
+    background-color: #000000;
+}
+.header-bg-img{
+    height: 848px;
+    width: 636px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/people.png?raw=true);
+    
+}
+.title-list li{
+    max-width: 636px;
+}
+
+.contact_me{
+    width: 185px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    padding: 12px 24px;   
+}
+.contact_me .link{
+    padding-right: 4px;
+    color: #000000;
+}
+
+.arrow_outward{
+    height: 24px;
+    width: 24px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward.png?raw=true);
+}
+.introduction-bg-img{
+    height: 920px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+.sparkle-sm_box{
+    width: 128px;
+}
+.section-left{
+    width: 526px;
+    height: 442px;
+}
+.section-right{
+    width: 746px;
+}
+.section-right img{
+    display: inline-block;
+}
+.sparkle{
+    width: 196px;
+    height: 600px;  
+}
+.photographer{
+    width: 196px;
+    height: 600px;
+}
+.people-2{
+    width: 306px;
+    height: 600px;
+}
+.card{
+    width: 636px;  
+    flex-wrap: wrap;
+    
+}
+.card-list{
+    width: 306px;
+    padding: 16px;
+    border: 1px solid #E3E3E3;
+}
+
+.aboutme-info-title{
+    width: 526px;
+}
+.contact-info{
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+
+}
+.contact-info-text{
+    width: 657px;
+    color: #FFFFFF;
+}
+.contact-info-img{
+    height: 100px;
+    width: 100px;
+}
+.contact-info-list{
+    width: 526px;
+}
+.Rectangle_10{
+    width: 416px;
+    height: 530px;
+}
+.Rectangle_14{
+    width: 306px;
+    height: 306px;
+}
+.Rectangle_15{
+    width: 196px;
+    height: 196px;
+}
+.Rectangle_29{
+    width: 526px;
+    height: 306px;
+}
+.arrow_outward-white{
+    height: 24px;
+    width: 24px;
+}
+.myproject-info{
+    width: 856px;
+}
+.myprojecy-title{
+    width: 746px;
+}
+.myproject-info-item{
+    width: 636px;
+    height: 196px;
+}
+.see_more-btn{
+    width: 185px;
+    height: 48px;
+    border-radius: 32px;
+    padding: 12px 24px;
+    background-color: #000000;
+}
+.underphoto{
+    width: 856px;
+    height: 306px;
+}
+.footer{
+    background-color: #000000;
+}
